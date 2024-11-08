@@ -56,20 +56,18 @@ class HomeMenu extends StatelessWidget {
                 onTap: () {
                   HomeMenuRouter.gotoTratamento();
                 },
-                child: Expanded(
-                  child: Container(
-                    padding: const EdgeInsets.all(10),
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(20),
-                      color: const Color(0xffFAFF01),
-                    ),
-                    child: Center(
-                      child: Text(
-                          'Como o tratamento ortodôntico pode interferir no processo de RRE ?',
-                          textAlign: TextAlign.center,
-                          style: TextStyle(
-                              fontSize: 30, fontWeight: FontWeight.bold)),
-                    ),
+                child: Container(
+                  padding: const EdgeInsets.all(10),
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(20),
+                    color: const Color(0xffFAFF01),
+                  ),
+                  child: Center(
+                    child: Text(
+                        'Como o tratamento ortodôntico pode interferir no processo de RRE ?',
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                            fontSize: 30, fontWeight: FontWeight.bold)),
                   ),
                 ),
               ),
